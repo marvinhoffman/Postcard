@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         
         enterMessageTextField.text = ""
-        // hide the keyboard... Swift is cool.
+        // hide the keyboard
         enterMessageTextField.resignFirstResponder()
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
