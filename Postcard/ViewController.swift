@@ -42,6 +42,7 @@ class ViewController: UIViewController {
         enterMessageTextField.resignFirstResponder()
         
         enterNameTextField.text = ""
+        // hide the keyboard
         enterNameTextField.resignFirstResponder()
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
